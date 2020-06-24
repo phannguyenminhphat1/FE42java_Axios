@@ -1,6 +1,10 @@
 var nguoiDungService = new NguoiDungService();
 getListUser();
 
+function laiTetGit(){
+    console.log("Lại thêm người dùng");
+}
+
 function getListUser() {
     nguoiDungService.layDanhSachNguoiDung().then(function (result) {
         console.log(result.data);
