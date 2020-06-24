@@ -1,5 +1,9 @@
 var nguoiDungService = new NguoiDungService();
 getListUser();
+// tét git
+function tetGit(){
+    console.log("THêm người dùng");
+}
 
 function getListUser() {
     nguoiDungService.layDanhSachNguoiDung().then(function (result) {
