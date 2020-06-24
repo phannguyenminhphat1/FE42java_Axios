@@ -1,7 +1,7 @@
 var nguoiDungService = new NguoiDungService();
 getListUser();
 
-function laiTetGit(){
+function tetGit(){
     console.log("Lại thêm người dùng");
 }
 
